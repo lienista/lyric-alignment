@@ -127,9 +127,9 @@ def perform_lyric_alignment(mp3_path, path_lyric):
     return lyric_alignment
 
 if __name__ == "__main__":
-    input_txt = 'data/songs_of_the_sea/es-es/2.txt'  # Path to the input text file
-    output_json = 'data/songs_of_the_sea/es-es/formatted/2.json'  # Path to the output formatted JSON file
-    mp3_file = 'data/songs_of_the_sea/es-es/2.mp3'  # Path to the MP3 file
+    input_txt = 'data/songs_of_the_sea/vi-no/2.txt'  # Path to the input text file
+    output_json = 'data/songs_of_the_sea/vi-no/formatted/2.json'  # Path to the output formatted JSON file
+    mp3_file = 'data/songs_of_the_sea/vi-no/2.mp3'  # Path to the MP3 file
 
     # Format the input text file into JSON
     format_input_txt_to_json(input_txt, output_json)
